@@ -1,0 +1,22 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 3,
+  "fields": {
+    "title": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "subject": 3,
+    "title": "django fundamentals",
+    "slug": "django-fundamentals",
+    "overview": "it is about django and there importance /",
+    "created": "2020-09-12T10:42:40.481Z"
+  }
+}
+]
